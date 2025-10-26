@@ -13,8 +13,6 @@ const MovieList = ({setWatchlist,Watchlist, setIsmodalOpen}) => {
     if (!exists) {
       setWatchlist([...Watchlist, movie]);
       setIsmodalOpen(true);
-
-
     }
   };
 

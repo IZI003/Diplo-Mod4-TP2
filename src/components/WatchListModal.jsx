@@ -26,7 +26,7 @@ const WatchListModal = ({IsmodalOpen, setIsmodalOpen, Watchlist, setWatchlist}) 
 
     <button
       onClick={modal}
-      className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300 m-2"
+      className="bg-indigo-600 text-black px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300 m-2"
     >
       cerrar
     </button>

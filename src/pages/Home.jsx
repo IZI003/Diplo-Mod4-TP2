@@ -8,7 +8,6 @@ const Home = () => {
   const [Watchlist, setWatchlist] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
   
-  
     // Cargar desde localStorage al iniciar
   useEffect(() => {
     const storedList = localStorage.getItem('watchlist');

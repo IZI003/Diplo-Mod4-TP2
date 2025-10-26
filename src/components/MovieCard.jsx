@@ -16,7 +16,7 @@ const MovieCard = ({ movie, addtowatchlist }) => {
 
           <button
             onClick={() => addtowatchlist(movie)}
-            className="mt-4 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300 "
+            className="mt-4 bg-indigo-600 text-black px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300 "
           >
             add Watchlist
           </button>
